@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-qb-date-nodes"
+description = "A custom node designed for ComfyUI, allowing users to format the current date and time based on a specified format. 一个为 ComfyUI 设计的自定义节点，允许用户根据指定的格式获取当前日期和时间。"
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/Q-Bug4/Comfyui-Qb-DateNodes"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "qbug"
+DisplayName = "Comfyui-Qb-Date-Nodes"
+Icon = ""
