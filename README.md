@@ -15,6 +15,7 @@ The `NowFormatterNode` class provides a way to obtain the current date and time 
 - `format` (string): The desired format of the date and time. Default is `"yyyy-MM-dd-hhmmss"`.
     - Use the following symbols:
         - `yyyy`: Full year (e.g., 2024)
+        - `YY`: 2-digit year (e.g., 24)
         - `MM`: Month (01 to 12)
         - `dd`: Day of the month (01 to 31)
         - `hh`: Hour in 24-hour format (00 to 23)

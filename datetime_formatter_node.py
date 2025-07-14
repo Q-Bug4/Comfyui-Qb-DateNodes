@@ -16,7 +16,7 @@ class NowFormatterNode:
 
     def format_datetime(self, format: str) -> tuple[str]:
         # Convert custom format to strftime format
-        format = format.replace("yyyy", "%Y").replace("MM", "%m").replace("dd", "%d").replace("hh", "%H").replace("mm", "%M").replace("ss", "%S")
+        format = format.replace("yyyy", "%Y").replace("YY", "%y").replace("MM", "%m").replace("dd", "%d").replace("hh", "%H").replace("mm", "%M").replace("ss", "%S")
         
         # Get the current time and format it
         try:
